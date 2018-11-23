@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="GridLayout" gridLayoutRows="3" gridLayoutColumns="4"  title="MonsterSearchGui" scrollableY="false" name="MonsterSearchGui">
+  <component type="Label" text="Monster Name:" name="MonsterNameLabel">
+  </component>
+  <component type="ComboBox" name="MonsterNameComboBox">
+    <stringItem value="Is" /><stringItem value="Contains" /><stringItem value="Starts With" /><stringItem value="Ends With" />  </component>
+  <component type="TextField" text="TextField" name="MonsterNameTextField">
+  </component>
+  <component type="Label" text="placeholder" name="MonsterNamePlaceholder">
+  </component>
+  <component type="Label" text="Minimum Monster CR" name="MinCrLabel">
+  </component>
+  <component type="ComboBox" name="Combo_Box">
+    <stringItem value="ComboBox" /><stringItem value="Red" /><stringItem value="Green" /><stringItem value="Blue" />  </component>
+  <component type="Label" text="Maximum Monster CR" name="MaxCrLabel">
+  </component>
+  <component type="ComboBox" name="Combo_Box_1">
+    <stringItem value="ComboBox" /><stringItem value="Red" /><stringItem value="Green" /><stringItem value="Blue" />  </component>
+  <component type="Label" text="Monster Type:" name="MonsterTypeLabel">
+  </component>
+  <component type="Container" layout="TableLayout" tableLayoutRows="3" tableLayoutColumns="3" tableLayoutGrowHorizontally="true"  scrollableX="false" scrollableY="false" name="Table_Layout">
+    <component type="CheckBox" text="CheckBox" name="Check_Box_5" actionEvent="true">
+    </component>
+    <component type="CheckBox" text="CheckBox" name="Check_Box_4">
+    </component>
+    <component type="CheckBox" text="CheckBox" name="Check_Box_3">
+    </component>
+    <component type="CheckBox" text="CheckBox" name="Check_Box_2">
+    </component>
+    <component type="CheckBox" text="CheckBox" name="Check_Box_1">
+    </component>
+    <component type="CheckBox" text="CheckBox" name="Check_Box">
+    </component>
+  </component>
+</component>
